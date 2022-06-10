@@ -4,14 +4,16 @@
 
 ### tools :hammer_and_wrench:
 - [x] Supertest
-- [] Swagger
-- [] JWT
+- [ ] Swagger
+- [ ] JWT
 - [x] Mongoose
 - [x] MongoDB
 - [x] Express
 - [x] NodeJS
 - [x] Jest Coverage
+- [ ] CodeCov
 
 ### @TODO
-- [] Improve test add payload
-- [] add fetchMock
+- [ ] Improve test add payload
+- [ ] add fetchMock
+- [ ] deploy

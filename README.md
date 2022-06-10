@@ -1,0 +1,17 @@
+<h1 align="center">RESTRIS</h1>
+
+<p align="center"> API REST with ExpressJS</p>
+
+### tools :hammer_and_wrench:
+- [x] Supertest
+- [] Swagger
+- [] JWT
+- [x] Mongoose
+- [x] MongoDB
+- [x] Express
+- [x] NodeJS
+- [x] Jest Coverage
+
+### @TODO
+- [] Improve test add payload
+- [] add fetchMock

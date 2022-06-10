@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should get api root correctly 1`] = `
+Object {
+  "message": "RESTRIS",
+  "status": 200,
+}
+`;

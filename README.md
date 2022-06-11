@@ -13,7 +13,7 @@
 - [x] Jest Coverage
 - [ ] CodeCov
 
-### @TODO
+### todo
 - [ ] Improve test add payload
 - [ ] add fetchMock
 - [ ] deploy

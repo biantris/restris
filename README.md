@@ -10,6 +10,7 @@
 - [x] MongoDB
 - [x] Express
 - [x] NodeJS
+- [x] Jest
 - [x] Jest Coverage
 - [ ] CodeCov
 

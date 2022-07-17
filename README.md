@@ -19,4 +19,4 @@
 - [x] deploy w/ fly.io
 
 ### demo
-🔗 [restris.fly.dev](https://restris.fly.dev/).
+🔗 [restris.fly.dev](https://restris.fly.dev/)

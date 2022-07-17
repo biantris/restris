@@ -5,8 +5,7 @@
 ### tools :hammer_and_wrench:
 - [x] Supertest
 - [ ] Swagger
-- [ ] JWT
-- [x] Mongoose
+- [ ] Mongoose
 - [ ] MongoDB
 - [x] Express
 - [x] NodeJS

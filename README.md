@@ -7,7 +7,7 @@
 - [ ] Swagger
 - [ ] JWT
 - [x] Mongoose
-- [x] MongoDB
+- [ ] MongoDB
 - [x] Express
 - [x] NodeJS
 - [x] Jest

@@ -18,3 +18,6 @@
 - [ ] Improve test add payload
 - [ ] add fetchMock
 - [ ] deploy
+
+### demo
+🔗 [restris.fly.dev](https://restris.fly.dev/)

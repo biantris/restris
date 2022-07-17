@@ -17,7 +17,7 @@
 ### todo
 - [ ] Improve test add payload
 - [ ] add fetchMock
-- [ ] deploy
+- [x] deploy w/ fly.io
 
 ### demo
 🔗 [restris.fly.dev](https://restris.fly.dev/)

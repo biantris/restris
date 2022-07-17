@@ -1,14 +1,14 @@
 import cors from "cors";
-import dotenv from "dotenv";
+//import dotenv from "dotenv";
 import bodyParser from "body-parser";
-import { connectDatabase } from "./mongo";
+//import { connectDatabase } from "./mongo";
 import express from "express";
 
-connectDatabase();
+//connectDatabase();
 
 const app = express();
 
-dotenv.config();
+//dotenv.config();
 
 app.use(cors());
 app.use(express.json());

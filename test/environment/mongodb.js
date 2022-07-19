@@ -1,11 +1,12 @@
 /* eslint-disable */
+//const { config } = require('../../src/config');
 const MongodbMemoryServer = require('mongodb-memory-server-global');
 const NodeEnvironment = require('jest-environment-node');
 
 class MongoDbEnvironment extends NodeEnvironment {
-  constructor(config) {
-    // console.error('\n# MongoDB Environment Constructor #\n');
-    super(config);
+  constructor({ globalConfig, projectConfig }, context) {
+    super({ globalConfig, projectConfig }, context);
+        
     this.mongod = new MongodbMemoryServer.default({
       instance: {
         // settings here

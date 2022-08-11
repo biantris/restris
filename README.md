@@ -3,26 +3,26 @@
 Functional Backend implementation of REST api with NodeJS(KoaJS) MongoDB and Jest Tests.
 
 ### Tools
--[] TypeScript
--[] Node
--[] KoaJS
--[] MongoDB
--[] Mongoose
--[] Jest
--[] Supertest
--[] Swagger
+- [x] TypeScript
+- [x] Node
+- [x] KoaJS
+- [x] MongoDB
+- [x] Mongoose
+- [x] Jest
+- [x] Supertest
+- [ ] Swagger
 
 ### Modules
--[] userModel
+- [x] userModel
 
 #### APIs
--[] userGet
--[] userGetAll
--[] userPost
--[] userPut
--[] userDelete
+- [x] userGet
+- [x] userGetAll
+- [x] userPost
+- [ ] userPut
+- [x] userDelete
 
 ### Auth Flow
--[] login
--[] validate user token
--[] logout
+- [x] login
+- [x] validate user token
+- [x] logout

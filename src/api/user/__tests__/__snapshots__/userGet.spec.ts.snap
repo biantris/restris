@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return error if authorization header does not exist 1`] = `
+Object {
+  "message": "Unauthorized",
+}
+`;
+
+exports[`should return error if user it was not found 1`] = `
+Object {
+  "message": "User not found",
+}
+`;
+
+exports[`should return user by id 1`] = `
+Object {
+  "user": Object {
+    "_id": "ObjectId",
+    "email": "user2@test.com",
+    "name": "User 2",
+  },
+}
+`;

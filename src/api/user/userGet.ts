@@ -47,10 +47,14 @@ interface IGetUserAPI {
   id?: string;
   email?: string;
   isDelete?: boolean;
+  isUpdate?: boolean;
 }
 
 export const getUserApi = async ({
-  email, id, isDelete
+  email,
+  id,
+  isDelete,
+  isUpdate,
 }: IGetUserAPI): Promise<GetUserApiPayload> => {
   const { conditions, error } = getConditions(id, email);
 
@@ -62,14 +66,27 @@ export const getUserApi = async ({
   }
 
   let user;
+
   if (isDelete) {
     user = await User.findOne({
       ...conditions,
-    }).select("-password -createdAt -updatedAt").lean();
+    })
+      .select("-password -createdAt -updatedAt")
+      .lean();
   } else {
     user = await User.findOne({
       ...conditions,
-    }).select(userSelection).lean();
+    })
+      .select(userSelection)
+      .lean();
+  }
+
+  if(isUpdate) {
+    user = await User.findOne({
+      ...conditions,
+    })
+      .select(userSelection)
+      .lean();
   }
 
   if (!user) {
@@ -97,7 +114,7 @@ export const userGet = async (ctx) => {
       return;
     }
 
-    const { user, error } = await getUserApi({id});
+    const { user, error } = await getUserApi({ id });
 
     if (error) {
       ctx.status = 400;

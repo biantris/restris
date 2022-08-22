@@ -29,7 +29,7 @@ Functional Backend implementation of REST api with NodeJS(KoaJS) MongoDB and Jes
 - [x] userGet
 - [x] userGetAll
 - [x] userPost
-- [ ] userPut
+- [ ] userUpdate
 - [x] userDelete
 
 ### Auth Flow

@@ -54,7 +54,7 @@
     "@types/koa__router": "^8.0.4",
     "@types/webpack-dev-server": "4.7.2",
     "@types/webpack-node-externals": "2.5.3",
-    "babel-jest": "^26.0.1",
+    "babel-jest": "^29.0.1",
     "babel-loader": "8.2.5",
     "clean-webpack-plugin": "4.0.0",
     "jest": "25.1.0",

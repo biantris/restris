@@ -10,6 +10,7 @@ import { version } from "../package.json";
 import { authLogin } from "./api/auth/authLogin";
 import { auth } from "./auth/auth";
 import { userPost } from "./api/user/userPost";
+import { userUpdate } from "./api/user/userUpdate";
 
 const app = new Koa();
 
@@ -29,7 +30,7 @@ routerOpen.get("/api/version", (ctx) => {
 
 routerOpen.post("/api/auth/login", authLogin);
 routerOpen.post("/api/user", userPost);
-
+routerOpen.post("/api/user/:id", userUpdate);
 app.use(routerOpen.routes());
 
 app.use(auth);

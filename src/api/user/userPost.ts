@@ -24,7 +24,7 @@ export const userPost = async (ctx) => {
     return;
   }
 
-  const { user: userExist } = await getUserApi({email: userValidated?.email});
+  const { user: userExist } = await getUserApi({ email: userValidated?.email });
 
   if (userExist) {
     ctx.status = 400;
@@ -39,7 +39,7 @@ export const userPost = async (ctx) => {
       ...userValidated,
     }).save();
 
-    const { user: userNormalized, error } = await getUserApi({id: userNew._id});
+    const { user: userNormalized, error } = await getUserApi({ id: userNew._id });
 
     if (error) {
       ctx.status = 400;

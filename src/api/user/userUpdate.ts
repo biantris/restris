@@ -2,7 +2,9 @@ import { checkObjectId } from "../apiHelpers";
 import UserModel from "../../modules/user/UserModel";
 import { getUserApi } from "./userGet";
 
-export const userUpdate = async (ctx) => {
+import bcrypt from 'bcryptjs';
+
+export const userUpdate = async (ctx: any) => {
   const { id } = ctx.params;
 
   const _id = checkObjectId(id);
@@ -28,6 +30,50 @@ export const userUpdate = async (ctx) => {
     return;
   }
 
+  const { user: userExist } = await getUserApi({ email: user?.email });
+
+  if (userExist?.email == ctx.request.body?.user?.email) {
+    ctx.status = 400;
+    ctx.body = {
+      message: "Email already in use",
+    };
+    return;
+  }
+  interface dataToUpdate {
+    email?: string;
+    name?: string;
+    password?: string;
+  }
+
+  const dataToUpdate: dataToUpdate = {};
+
+  if (ctx.request.body?.user?.name) {
+
+    dataToUpdate.name = ctx.request.body?.user?.name;
+
+  }
+
+  if (ctx.request.body?.user?.password) {
+
+    const newPassword = bcrypt.hashSync(ctx.request.body?.user?.password, 8);
+
+    dataToUpdate.password = newPassword
+
+  }
+
+  if (ctx.request.body?.user?.email) {
+
+    dataToUpdate.email = ctx.request.body?.user?.email;
+
+    if (userExist?.email == ctx.request.body?.user?.email) {
+      ctx.status = 400;
+      ctx.body = {
+        message: "Email already in use",
+      };
+      return;
+    }
+  }
+
   try {
     await UserModel.updateOne(
       {
@@ -35,17 +81,12 @@ export const userUpdate = async (ctx) => {
       },
       {
         $set: {
-          name: user.name,
-          email: user.email,
-          password: user.password,
+          ...dataToUpdate
         },
       },
-      {
-        new: true,
-      }
     );
 
-    const { user: userUpdated, error } = await getUserApi({id: user._id, isUpdate: true});
+    const { user: userUpdated, error } = await getUserApi({ id: user._id, isUpdate: true });
 
     if (error) {
       ctx.status = 400;

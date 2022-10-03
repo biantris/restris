@@ -48,12 +48,14 @@ export const userUpdate = async (ctx: any) => {
   const dataToUpdate: dataToUpdate = {};
 
   if (ctx.request.body?.user?.name) {
+
     dataToUpdate.name = ctx.request.body?.user?.name;
+
   }
 
-  const newPassword = bcrypt.hashSync(ctx.request.body?.user?.password, 8);
+  if (ctx.request.body?.user?.password) {
 
-  if (newPassword !== null) {
+    const newPassword = bcrypt.hashSync(ctx.request.body?.user?.password, 8);
 
     dataToUpdate.password = newPassword
 
@@ -72,6 +74,7 @@ export const userUpdate = async (ctx: any) => {
     }
   }
 
+  console.log(dataToUpdate)
 
   try {
     await UserModel.updateOne(

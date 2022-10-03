@@ -30,7 +30,7 @@ routerOpen.get("/api/version", (ctx) => {
 
 routerOpen.post("/api/auth/login", authLogin);
 routerOpen.post("/api/user", userPost);
-routerOpen.post("/api/user/:id", userUpdate);
+routerOpen.put("/api/user/:id", userUpdate);
 app.use(routerOpen.routes());
 
 app.use(auth);

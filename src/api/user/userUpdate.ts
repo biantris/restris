@@ -74,8 +74,6 @@ export const userUpdate = async (ctx: any) => {
     }
   }
 
-  console.log(dataToUpdate)
-
   try {
     await UserModel.updateOne(
       {

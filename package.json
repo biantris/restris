@@ -45,7 +45,7 @@
     "@types/dotenv-safe": "8.1.2",
     "@types/isomorphic-fetch": "0.0.36",
     "@types/koa": "2.13.5",
-    "@types/koa-bodyparser": "^4.3.8",
+    "@types/koa-bodyparser": "^4.3.9",
     "@types/koa-convert": "^1.2.3",
     "@types/koa-cors": "^0.0.2",
     "@types/koa-logger": "3.1.2",

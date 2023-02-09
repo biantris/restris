@@ -22,7 +22,7 @@
     "mongoose": "6.9.1",
     "swagger-jsdoc": "^6.2.8",
     "uuid": "9.0.0",
-    "yup": "^0.32.11"
+    "yup": "^1.0.0"
   },
   "devDependencies": {
     "@babel/cli": "7.20.7",

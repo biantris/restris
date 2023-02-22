@@ -60,7 +60,7 @@
     "jest": "25.1.0",
     "jest-fetch-mock": "^3.0.3",
     "jest-junit": "15.0.0",
-    "mongodb-memory-server": "8.11.4",
+    "mongodb-memory-server": "8.11.5",
     "reload-server-webpack-plugin": "1.0.1",
     "supertest": "^6.3.3",
     "webpack": "5.75.0",

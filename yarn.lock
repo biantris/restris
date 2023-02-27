@@ -8621,10 +8621,10 @@ ylru@^1.2.0:
   resolved "https://registry.yarnpkg.com/ylru/-/ylru-1.3.2.tgz#0de48017473275a4cbdfc83a1eaf67c01af8a785"
   integrity sha512-RXRJzMiK6U2ye0BlGGZnmpwJDPgakn6aNQ0A7gHRbD4I0uvK4TW6UqkK1V0pp9jskjJBAXd3dRrbzWkqJ+6cxA==
 
-yup@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/yup/-/yup-1.0.0.tgz#de4e32f9d2e45b1ab428076fc916c84db861b8ce"
-  integrity sha512-bRZIyMkoe212ahGJTE32cr2dLkJw53Va+Uw5mzsBKpcef9zCGQ23k/xtpQUfGwdWPKvCIlR8CzFwchs2rm2XpQ==
+yup@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/yup/-/yup-1.0.1.tgz#afd3453adc9527c4e3ba00eb7d8f843c99fdbc80"
+  integrity sha512-nZPCUOowoJYjNUxajzFQvfZv+z68Bv9u+2Tv5Ay5oXmn9jahfbd0JPaQ7zD/421ihvYqwMJc73fgdY8gyPKBhg==
   dependencies:
     property-expr "^2.0.5"
     tiny-case "^1.0.3"

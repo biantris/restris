@@ -41,7 +41,7 @@
     "@babel/preset-typescript": "7.22.11",
     "@types/babel__core": "7.20.1",
     "@types/babel__preset-env": "7.9.2",
-    "@types/bcryptjs": "^2.4.2",
+    "@types/bcryptjs": "^2.4.3",
     "@types/dotenv-safe": "8.1.2",
     "@types/isomorphic-fetch": "0.0.36",
     "@types/koa": "2.13.8",

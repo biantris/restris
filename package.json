@@ -47,7 +47,7 @@
     "@types/koa": "2.13.9",
     "@types/koa-bodyparser": "^4.3.10",
     "@types/koa-convert": "^1.2.5",
-    "@types/koa-cors": "^0.0.2",
+    "@types/koa-cors": "^0.0.3",
     "@types/koa-logger": "3.1.2",
     "@types/koa-router": "7.4.5",
     "@types/koa__cors": "^4.0.0",

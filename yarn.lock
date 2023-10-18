@@ -1741,11 +1741,12 @@
     "@types/keygrip" "*"
     "@types/node" "*"
 
-"@types/dotenv-safe@8.1.3":
-  version "8.1.3"
-  resolved "https://registry.yarnpkg.com/@types/dotenv-safe/-/dotenv-safe-8.1.3.tgz#7eb3e1700d5a568d07576629e8d26134c19f43d9"
-  integrity sha512-kWQKZkx8ryE3PlzThz37mnDFcoENiHayJvqy2CCWl1e+MkBoM2LaMIgXF1eC93bHnWkoIDgUrmlnHfyOqAKbJA==
+"@types/dotenv-safe@8.1.4":
+  version "8.1.4"
+  resolved "https://registry.yarnpkg.com/@types/dotenv-safe/-/dotenv-safe-8.1.4.tgz#e6b1378bf37e4bf3b9252921a8458d5d39c0e041"
+  integrity sha512-00ANXgqYj5uekMXPffxoTlgXBpDRF4KPX3XPh45G6UNc5M+SM5DuvrZ81qhK1N56Q93zXbyEVGxGLUQUj+aaMQ==
   dependencies:
+    "@types/node" "*"
     dotenv "^8.2.0"
 
 "@types/eslint-scope@^3.7.3":

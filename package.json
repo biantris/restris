@@ -42,7 +42,7 @@
     "@types/babel__core": "7.20.3",
     "@types/babel__preset-env": "7.9.4",
     "@types/bcryptjs": "^2.4.5",
-    "@types/dotenv-safe": "8.1.3",
+    "@types/dotenv-safe": "8.1.4",
     "@types/isomorphic-fetch": "0.0.38",
     "@types/koa": "2.13.10",
     "@types/koa-bodyparser": "^4.3.10",

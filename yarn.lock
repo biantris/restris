@@ -1906,10 +1906,10 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-router@7.4.5":
-  version "7.4.5"
-  resolved "https://registry.yarnpkg.com/@types/koa-router/-/koa-router-7.4.5.tgz#33cd1c7e5ee75e52fd4786f49a8577b45cfdccde"
-  integrity sha512-9DpkJcOpeK2bXUfyLDKzbDnohUp1TcNBQ7XsuadjYcHMsCOILRbzQdA/g5qJA+0zHi0cet64bOycXz2Snb0Rpw==
+"@types/koa-router@7.4.6":
+  version "7.4.6"
+  resolved "https://registry.yarnpkg.com/@types/koa-router/-/koa-router-7.4.6.tgz#8489faddecd744f8272ec12d20337d7509b05fe4"
+  integrity sha512-elqZpjdH8bsi4HNSKwjY4nRVi65dd7kJoVEYXHMyI84R3wStzGnFSpYbilzqcUzPeZHiEhL0chfM593NeojqzQ==
   dependencies:
     "@types/koa" "*"
 

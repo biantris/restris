@@ -49,7 +49,7 @@
     "@types/koa-convert": "^1.2.6",
     "@types/koa-cors": "^0.0.4",
     "@types/koa-logger": "3.1.4",
-    "@types/koa-router": "7.4.5",
+    "@types/koa-router": "7.4.6",
     "@types/koa__cors": "^4.0.2",
     "@types/koa__router": "^12.0.2",
     "@types/webpack-dev-server": "4.7.2",

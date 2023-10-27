@@ -51,7 +51,7 @@
     "@types/koa-logger": "3.1.4",
     "@types/koa-router": "7.4.6",
     "@types/koa__cors": "^4.0.2",
-    "@types/koa__router": "^12.0.2",
+    "@types/koa__router": "^12.0.3",
     "@types/webpack-dev-server": "4.7.2",
     "@types/webpack-node-externals": "3.0.3",
     "babel-jest": "26.0.1",

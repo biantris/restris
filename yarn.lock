@@ -1892,10 +1892,10 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-cors@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@types/koa-cors/-/koa-cors-0.0.4.tgz#766045018a731fa1b0e23e9df297bcda710ae463"
-  integrity sha512-2NMaknk0NXYP7h4kJiw0gAbG5Kw9W3kQFrV1+M6Mn3s6Zb875rqS38kpE0wCB51JaTtsJh5UQPsvdslSF4OVkg==
+"@types/koa-cors@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@types/koa-cors/-/koa-cors-0.0.5.tgz#9415a05f998d1fc019f27ef4ac16e86c458fdfe9"
+  integrity sha512-WoxZWHDhYBj2HVUgx9ZMnXRkRbs8KvF7+EOaU6I/8XPI3r/tcuj6ehfH6ZvC3OReOCEqGfQ59n+ahGJJXihRLg==
   dependencies:
     "@types/koa" "*"
 

@@ -1741,10 +1741,10 @@
     "@types/keygrip" "*"
     "@types/node" "*"
 
-"@types/dotenv-safe@8.1.4":
-  version "8.1.4"
-  resolved "https://registry.yarnpkg.com/@types/dotenv-safe/-/dotenv-safe-8.1.4.tgz#e6b1378bf37e4bf3b9252921a8458d5d39c0e041"
-  integrity sha512-00ANXgqYj5uekMXPffxoTlgXBpDRF4KPX3XPh45G6UNc5M+SM5DuvrZ81qhK1N56Q93zXbyEVGxGLUQUj+aaMQ==
+"@types/dotenv-safe@8.1.5":
+  version "8.1.5"
+  resolved "https://registry.yarnpkg.com/@types/dotenv-safe/-/dotenv-safe-8.1.5.tgz#bbf27cb44165f1364566763230a199c9a225e9a1"
+  integrity sha512-E8z+Z0+yE8eEZ8BcMnb3I31fV3ROxobooqEDRBoQDAs4lb0c9X6Va6P6z+svj/USxw4R7TErcfEuW0tk7ymaPA==
   dependencies:
     "@types/node" "*"
     dotenv "^8.2.0"

@@ -62,7 +62,7 @@
     "jest-junit": "16.0.0",
     "mongodb-memory-server": "9.2.0",
     "reload-server-webpack-plugin": "1.0.1",
-    "supertest": "^6.3.4",
+    "supertest": "^7.0.0",
     "webpack": "5.90.3",
     "webpack-cli": "5.1.4",
     "webpack-dev-server": "4.15.1",

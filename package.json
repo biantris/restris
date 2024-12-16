@@ -8,7 +8,7 @@
     "@types/jest": "^28.1.6",
     "bcryptjs": "^2.4.3",
     "dotenv-safe": "8.2.0",
-    "graphql": "^16.8.2",
+    "graphql": "^16.10.0",
     "graphql-relay": "^0.10.2",
     "isomorphic-fetch": "3.0.0",
     "jsonwebtoken": "^9.0.2",
